@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 1em;
+    background-color: #2b2024;
+}
+
+h1{
+    color: #fd0054;
+    text-align: center;
+    font-size: 25px;
+}
+
+p{
+    color: #fbf9fa;
+    text-align: center;
+    font-size: 18px;
+}
+
+span{
+    color: #fd0054;
+}
+
+.container{
+    max-width: 70vw;
+    padding: 1em;
+    margin: auto;
+}
+
+
+.links{
+    padding: 1em 0;
+}
+
+.back{
+    text-decoration: none;
+    color: #fbf9fa;
+    float: left;
+}
+
+.next{
+    text-decoration: none;
+    color: #fbf9fa;
+    float: right;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #fd0054 0%, #a80038 100%);
+    min-height: 550px;
+}
+
+.wrapper > *{
+    padding: 1em;
+}
+
+.map{
+    background: #fbf9fa;
+}
+
+#map{
+    height: 500px;
+    width: 100%;   
+}
+
+.form{
+    margin: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.full{
+    grid-column: 1/3;
+}
+
+button, input, textarea, select{
+    width: 100%;
+    padding: 8px;
+    border: 0;
+    border-radius: 8px;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #fbf9fa;
+    border-radius: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #fbf9fa;
+}
+
+select{
+    color: #fbf9fa;
+}
+
+select option{
+    background: #fbf9fa;
+    color: #fd0054;
+    font-weight: 600;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #fbf9fa;
+    background: #fbf9fa;
+    color: #fd0054;
+    text-transform: uppercase;
+    transition: all 1000ms ease-out;
+    border-radius: 8px;
+}
+
+button:hover, button:focus{
+    background: transparent;
+    color: #fbf9fa;
+    transition: all 100ms ease-out;
+}
+
+::placeholder{
+    color: #fbf9fa;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #fbf9fa;
+}
+
+::-ms-input-placeholder {
+    color: #fbf9fa;
+}
+
+.creator{
+    min-height: 40px;
+}
+
+.creator a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+    
+    #map{
+        height: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        padding: 0;
+    }
+
+    .container{
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .wrapper{
+        border-radius: 0;
+    }
+
+    .links{
+        padding: 1em;
+    }
+
+} 

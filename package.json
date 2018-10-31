@@ -1,0 +1,15 @@
+{
+  "name": "contact-forms-collection-css-grid",
+  "version": "1.0.0",
+  "description": "A collection with contact forms using css grid",
+  "main": "index.js",
+  "scripts": {
+    "homepage" : "https://dionweb.github.io/Contact_Forms_Collection_CSS_Grid/index.html",
+    "deploy" : "gh-pages -d src"
+  },
+  "author": "Tsentidis Dionysios",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

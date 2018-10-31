@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="styles/map_form.css">
+    <title>Contact Form - Google Maps</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="links">
+            <a href="index.html" class="back"> &larr; Back to index</a>
+            <a href="details_form.html" class="next">Next form &rarr;</a>
+        </div>
+        <h1>With Google Maps</h1>
+        <div class="wrapper">
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="form">
+                <form>
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="email" placeholder="E-Mail">
+                    <select name="sunject" class="full">
+                        <option selected disabled>Choose Subject</option>
+                        <option value="generalopt">General questions</option>
+                        <option value="techissuesopt">Technical issues</option>
+                        <option value="veropt">Verification</option>
+                        <option value="otheropt">Other</option>
+                    </select>
+                    <textarea name="message" rows="10" placeholder="Enter your message" class="full"></textarea>
+                    <button class="full">Send</button>
+                </form>
+            </div>
+        </div>
+        <p class="creator">Created by <a href="https://www.dionweb.me"><span>DionWeb</span></a> </p>
+    </div>
+    <script src="js/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC13MXEGDP5JdoCAqbM4czsQyhc0hjVBAs&callback=initMap"></script>
+</body>
+
+</html>
