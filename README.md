@@ -1,7 +1,7 @@
 # Contact forms collection / CSS Grid
 A collection of contact forms built with CSS Grid Layout
 
-![alt text](https://raw.githubusercontent.com/dionweb/Contact_Forms_Collection_CSS_Grid/master/mockup.png?token=AmkViZpgHoHpmNT54QdMMGc0moLRVu5cks5b43HpwA%3D%3D)
+![alt text](https://raw.githubusercontent.com/dionweb/Contact_Forms_Collection_CSS_Grid/master/src/images/gh-mockup.png?token=AmkVid1D5mxB66Z-foUCuo-GamcNgzE8ks5b5aP-wA%3D%3D)
 
 
 ## Clone
