@@ -1,8 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Raleway', sans-serif;
     height: 100vh;
     margin: 0;
@@ -10,45 +10,45 @@ body{
     background-color: #2b2024;
 }
 
-h1{
+h1 {
     color: #fd0054;
     text-align: center;
     font-size: 25px;
 }
 
-p{
+p {
     color: #fbf9fa;
     text-align: center;
     font-size: 18px;
 }
 
-span{
+span {
     color: #fd0054;
 }
 
-.container{
+.container {
     max-width: 70vw;
     padding: 1em;
     margin: auto;
 }
 
-.links{
+.links {
     padding: 1em 0;
 }
 
-.back{
+.back {
     text-decoration: none;
     color: #fbf9fa;
     float: left;
 }
 
-.next{
+.next {
     text-decoration: none;
     color: #fbf9fa;
     float: right;
 }
 
-.wrapper{
+.wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 8px;
@@ -56,11 +56,11 @@ span{
     min-height: 550px;
 }
 
-.wrapper > *{
+.wrapper>* {
     padding: 1em;
 }
 
-.text{
+.text {
     background: #fbf9fa;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -69,47 +69,50 @@ span{
     text-align: left;
 }
 
-ul{
+ul {
     list-style: none;
     padding: 0;
 }
 
-li{
-    padding: 0.3em;   
+li {
+    padding: 0.3em;
 }
 
-i{
+i {
     font-size: 22px;
     padding-right: 1em;
 }
 
-.content{
+.content {
     padding-top: 2em;
 }
 
-.form{
+.form {
     margin: auto;
     margin-left: 1em;
     margin-right: 1em;
 }
 
-.form h2{
+.form h2 {
     color: #fbf9fa;
     text-align: center;
     padding: 1em;
 }
 
-form{
+form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
 }
 
-.full{
+.full {
     grid-column: 1/3;
 }
 
-button, input, textarea, select{
+button,
+input,
+textarea,
+select {
     width: 100%;
     padding: 8px;
     border: 0;
@@ -120,19 +123,20 @@ button, input, textarea, select{
     border-radius: 0;
     font-family: 'Raleway', sans-serif;
     color: #fbf9fa;
+    font-size: 16px;
 }
 
-select{
+select {
     color: #fbf9fa;
 }
 
-select option{
+select option {
     background: #fbf9fa;
     color: #fd0054;
     font-weight: 600;
 }
 
-button{
+button {
     cursor: pointer;
     border: 1px solid #fbf9fa;
     background: #fbf9fa;
@@ -142,13 +146,14 @@ button{
     border-radius: 8px;
 }
 
-button:hover, button:focus{
+button:hover,
+button:focus {
     background: transparent;
     color: #fbf9fa;
     transition: all 100ms ease-out;
 }
 
-::placeholder{
+::placeholder {
     color: #fbf9fa;
     opacity: 1;
 }
@@ -161,31 +166,32 @@ button:hover, button:focus{
     color: #fbf9fa;
 }
 
-.creator{
+.creator {
     min-height: 40px;
 }
 
-.creator a{
+.creator a {
     text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
 
-    .wrapper{
+    .wrapper {
         grid-template-columns: 1fr;
     }
-    
-    .text{
+
+    .text {
         border-bottom-left-radius: 0;
         border-top-right-radius: 8px;
         text-align: center;
     }
 
-    .content{
+    .content {
         padding: 0;
     }
 
-    .content h2, .content p{
+    .content h2,
+    .content p {
         margin: 10px;
     }
 
@@ -193,27 +199,27 @@ button:hover, button:focus{
 
 @media only screen and (max-width: 600px) {
 
-    body{
+    body {
         padding: 0;
     }
 
-    .container{
+    .container {
         margin: 0;
         padding: 0;
         max-width: 100%;
     }
 
-    .wrapper{
+    .wrapper {
         border-radius: 0;
     }
 
-    .text{
+    .text {
         padding: 2em;
         border-radius: 0;
     }
 
-    .links{
+    .links {
         padding: 1em;
     }
 
-} 
+}
