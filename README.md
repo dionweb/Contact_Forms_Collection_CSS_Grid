@@ -1,22 +1,20 @@
 # Contact forms collection / CSS Grid
+
 A collection of contact forms built with CSS Grid Layout
 
-
 ## Clone
+
 ```
 git clone https://github.com/dionweb/Contact_Forms_Collection_CSS_Grid.git
 ```
 
-
 ## Built With
 
-* CSS Grid Layout
-
+-  CSS Grid Layout
 
 ## Authors
 
-* **Tsentidis Dionysios** - *[DionWeb](http://www.dionweb.me/)*
-
+-  **Tsentidis Dionysios** - _[DionWeb](https://dionweb.me/)_
 
 ## License
 
@@ -31,5 +29,6 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Links
-* [Live Preview](https://dionweb.github.io/Contact_Forms_Collection_CSS_Grid/) 
-* [DionWeb](http://www.dionweb.me/)
+
+-  [Live Preview](https://dionweb.github.io/Contact_Forms_Collection_CSS_Grid/)
+-  [DionWeb](https://dionweb.me/)
